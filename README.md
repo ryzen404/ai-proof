@@ -44,3 +44,18 @@ Open `/builder`, click **Export PDF**, then choose **Save as PDF** in browser pr
 - Framework: Next.js
 - Build Command: `npm run build`
 - Output Directory: default
+
+
+## Live Demo
+
+https://ai-proof-three.vercel.app/
+
+## Screenshots
+
+### Landing
+
+![Ai Proof landing page](public/screenshots/landing.png)
+
+### Builder
+
+![Ai Proof builder page](public/screenshots/builder.png)

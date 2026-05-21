@@ -7,8 +7,8 @@ import { generateGrantAnswer, generateProofPack } from "@/lib/generate-proof";
 const sample = {
   projectName: "Ai Proof",
   tagline: "a reviewer-ready proof-pack generator for AI builder workflows",
-  githubUrl: "https://github.com/yourname/rizproof",
-  demoUrl: "https://ai-proof.vercel.app",
+  githubUrl: "https://github.com/ryzen404/ai-proof",
+  demoUrl: "https://ai-proof-three.vercel.app",
   problem: "AI builders use agents heavily, but evidence is fragmented across logs, screenshots, commits, and deployment notes.",
   users: "grant applicants, hackathon builders, open-source developers, and reviewers",
   impact: "It reduces application preparation time and helps reviewers verify AI-assisted work faster.",
@@ -18,8 +18,8 @@ const sample = {
   usage: "A single builder can turn raw logs and repo links into a structured proof pack in under three minutes.",
   verification: "Each claim is mapped to public links, logs, screenshots, or generated Markdown artifacts.",
   evidence: [
-    { title: "Public repository", type: "GitHub link", source: "https://github.com/yourname/rizproof", content: "Open-source code, README, docs, and examples.", claim: "Project is real and reviewable." },
-    { title: "Live demo", type: "demo URL", source: "https://ai-proof.vercel.app", content: "Public no-login builder flow.", claim: "Project is deployed and usable." },
+    { title: "Public repository", type: "GitHub link", source: "https://github.com/ryzen404/ai-proof", content: "Open-source code, README, docs, and examples.", claim: "Project is real and reviewable." },
+    { title: "Live demo", type: "demo URL", source: "https://ai-proof-three.vercel.app", content: "Public no-login builder flow.", claim: "Project is deployed and usable." },
     { title: "Build session", type: "agent session", source: "local terminal screenshot", content: "Agent planned PRD, created app files, and ran validation.", claim: "AI workflow was used to build the project." },
   ],
 };
