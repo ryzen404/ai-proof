@@ -5,10 +5,10 @@ import Link from "next/link";
 import { generateGrantAnswer, generateProofPack } from "@/lib/generate-proof";
 
 const sample = {
-  projectName: "RizProof",
+  projectName: "Ai Proof",
   tagline: "a reviewer-ready proof-pack generator for AI builder workflows",
   githubUrl: "https://github.com/yourname/rizproof",
-  demoUrl: "https://rizproof.vercel.app",
+  demoUrl: "https://ai-proof.vercel.app",
   problem: "AI builders use agents heavily, but evidence is fragmented across logs, screenshots, commits, and deployment notes.",
   users: "grant applicants, hackathon builders, open-source developers, and reviewers",
   impact: "It reduces application preparation time and helps reviewers verify AI-assisted work faster.",
@@ -19,7 +19,7 @@ const sample = {
   verification: "Each claim is mapped to public links, logs, screenshots, or generated Markdown artifacts.",
   evidence: [
     { title: "Public repository", type: "GitHub link", source: "https://github.com/yourname/rizproof", content: "Open-source code, README, docs, and examples.", claim: "Project is real and reviewable." },
-    { title: "Live demo", type: "demo URL", source: "https://rizproof.vercel.app", content: "Public no-login builder flow.", claim: "Project is deployed and usable." },
+    { title: "Live demo", type: "demo URL", source: "https://ai-proof.vercel.app", content: "Public no-login builder flow.", claim: "Project is deployed and usable." },
     { title: "Build session", type: "agent session", source: "local terminal screenshot", content: "Agent planned PRD, created app files, and ran validation.", claim: "AI workflow was used to build the project." },
   ],
 };
@@ -38,7 +38,7 @@ export default function BuilderPage() {
   const exportPdf = () => window.print();
 
   return <main>
-    <nav className="nav no-print"><div className="container nav-inner"><Link className="logo" href="/">RizProof</Link><div className="nav-links"><Link href="/examples">Examples</Link><Link className="pill" href="/">Home</Link></div></div></nav>
+    <nav className="nav no-print"><div className="container nav-inner"><Link className="logo" href="/">Ai Proof</Link><div className="nav-links"><Link href="/examples">Examples</Link><Link className="pill" href="/">Home</Link></div></div></nav>
     <section className="container section"><div className="section-title"><div><p className="kicker">local-first MVP</p><h2>Proof Pack Builder</h2></div><p className="kicker">Isi data project, tempel bukti, lalu export dossier untuk reviewer.</p></div>
       <div className="stats no-print"><div className="stat"><b>3 min</b><span>proof pack</span></div><div className="stat"><b>2 modes</b><span>pack + answer</span></div><div className="stat"><b>1 click</b><span>pdf export</span></div></div>
       <div className="builder" style={{marginTop: 18}}><div className="panel no-print"><div className="input-row"><button type="button" className="btn primary" onClick={() => setData(sample)}>Load sample</button><button type="button" className="btn" onClick={copy}>{copied ? "Copied" : "Copy MD"}</button><button type="button" className="btn" onClick={download}>Download MD</button><button type="button" className="btn" onClick={exportPdf}>Export PDF</button></div>

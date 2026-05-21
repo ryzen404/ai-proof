@@ -1,8 +1,8 @@
-# RizProof
+# Ai Proof
 
 Reviewer-ready proof packs for AI builders.
 
-RizProof turns raw build evidence into structured Markdown dossiers, grant answers, and reviewer-friendly summaries.
+Ai Proof turns raw build evidence into structured Markdown dossiers, grant answers, and reviewer-friendly summaries.
 
 ## Features
 

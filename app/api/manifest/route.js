@@ -1,3 +1,3 @@
 export async function GET() {
-  return Response.json({ ok: true, name: 'RizProof', scope: 'proof-pack builder', mode: 'local-first' })
+  return Response.json({ ok: true, name: 'Ai Proof', scope: 'proof-pack builder', mode: 'local-first' })
 }

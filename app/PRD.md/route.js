@@ -1,8 +1,8 @@
 export async function GET() {
-  return new Response(`# PRD - RizProof
+  return new Response(`# PRD - Ai Proof
 
 ## Overview
-RizProof is a proof-pack generator for AI builders. It converts messy evidence such as agent logs, terminal output, repository links, screenshots, and deployment URLs into structured reviewer-ready proof packs for grants, hackathons, and credit programs.
+Ai Proof is a proof-pack generator for AI builders. It converts messy evidence such as agent logs, terminal output, repository links, screenshots, and deployment URLs into structured reviewer-ready proof packs for grants, hackathons, and credit programs.
 
 ## Problem
 AI builders often use agents heavily, but evidence is fragmented across tools. Reviewers need to know what was built, how it was verified, and which evidence supports each claim.
