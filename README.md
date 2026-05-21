@@ -2,16 +2,17 @@
 
 Reviewer-ready proof packs for AI builders.
 
-RizProof turns raw build evidence into structured Markdown dossiers and application answers. It is local-first, public, and made to help builders present what they made, how they verified it, and which evidence supports each claim.
+RizProof turns raw build evidence into structured Markdown dossiers, grant answers, and reviewer-friendly summaries.
 
 ## Features
 
-- Project profile capture
-- Workflow notes
-- Evidence inbox
+- Premium landing page
+- Proof builder
+- Evidence map
 - Proof pack generator
 - Grant answer generator
 - Example gallery
+- PDF export via browser print
 - Public Vercel-ready demo
 
 ## Pages
@@ -34,9 +35,12 @@ npm run dev
 npm run build
 ```
 
+## PDF export
+
+Open `/builder`, click **Export PDF**, then choose **Save as PDF** in browser print dialog.
+
 ## Deploy
 
 - Framework: Next.js
 - Build Command: `npm run build`
 - Output Directory: default
-
